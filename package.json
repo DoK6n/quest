@@ -1,10 +1,13 @@
 {
   "private": true,
   "scripts": {
+    "preinstall": "pnpm dlx only-allow pnpm",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "desktop": "turbo run --filter=desktop",
+    "desktop:add": "pnpm add --filter desktop"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
@@ -12,6 +15,10 @@
     "tsconfig": "workspace:*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "quest"
+  "packageManager": "pnpm@8.7.5",
+  "name": "quest",
+  "engines": {
+    "node": ">18.16.0", 
+    "pnpm": ">=8.7.5"
+  }
 }

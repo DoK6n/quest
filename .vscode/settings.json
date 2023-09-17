@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "rust-analyzer.linkedProjects": ["apps/desktop/src-tauri/Cargo.toml"],
+  "[rust]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "iconColour": "#663399",
+      "foreground": "#fff",
+      "background": "#663399",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "iconColour": "#FC6C85",
+      "foreground": "#fff",
+      "background": "#FC6C85",
+      "gutterIcon": true
+    }
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#8d92e9",
+  "material-icon-theme.files.associations": {
+    "*.route.js": "Routing",
+    "*.route.ts": "Routing",
+    "app/page.tsx": "Routing",
+    "app/layout.tsx": "Diff"
+  },
+  "material-icon-theme.folders.associations": {
+    "src/features": "Controller",
+    "component": "react-components",
+    "components": "react-components",
+    "store": "context"
+  },
+  "reactSnippets.settings.importReactOnTop": false,
+  "reactSnippets.settings.typescriptPropsStatePrefix": "interface"
+}

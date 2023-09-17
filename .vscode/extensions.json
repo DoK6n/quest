@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "dsznajder.es7-react-js-snippets",
+    "wix.vscode-import-cost",
+    "PKief.material-icon-theme",
+    "rust-lang.rust-analyzer",
+    "tauri-apps.tauri-vscode",
+    "tamasfe.even-better-toml",
+    "Prisma.prisma",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "rangav.vscode-thunder-client",
+    "vincaslt.highlight-matching-tag",
+    "oderwat.indent-rainbow",
+    "ms-azuretools.vscode-docker",
+    "anseki.vscode-color",
+    "naumovs.color-highlight",
+    "formulahendry.auto-rename-tag",
+    "ChakrounAnas.turbo-console-log"
+  ]
+}
