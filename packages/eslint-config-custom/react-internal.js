@@ -34,6 +34,15 @@ module.exports = {
   ignorePatterns: ['node_modules/', 'dist/', '.eslintrc.js'],
 
   rules: {
-    // add specific rules configurations here
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/consistent-type-definitions': 'off',
+    'import/no-default-export': 'off',
+    'eslint-comments/require-description': 'off',
+    'no-console': 'warn',
+    'react/hook-use-state': 'off',
+    'react/button-has-type': 'off',
+    'tsdoc/syntax': 'off',
   },
 }

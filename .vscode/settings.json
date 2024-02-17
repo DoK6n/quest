@@ -1,7 +1,11 @@
 {
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
   "workbench.iconTheme": "material-icon-theme",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
   "rust-analyzer.linkedProjects": ["apps/desktop/src-tauri/Cargo.toml"],
   "[rust]": {
     "editor.formatOnPaste": true,
@@ -33,18 +37,13 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.folders.color": "#8d92e9",
-  "material-icon-theme.files.associations": {
-    "*.route.js": "Routing",
-    "*.route.ts": "Routing",
-    "app/page.tsx": "Routing",
-    "app/layout.tsx": "Diff"
-  },
   "material-icon-theme.folders.associations": {
-    "src/features": "Controller",
-    "component": "react-components",
     "components": "react-components",
-    "store": "context"
+    "ui": "Shader",
+    "store": "Context",
+    "features": "Controller"
   },
   "reactSnippets.settings.importReactOnTop": false,
-  "reactSnippets.settings.typescriptPropsStatePrefix": "interface"
+  "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+  "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

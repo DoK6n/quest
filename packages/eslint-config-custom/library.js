@@ -30,4 +30,13 @@ module.exports = {
     },
   },
   ignorePatterns: ['node_modules/', 'dist/'],
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/consistent-type-definitions': 'off',
+    'import/no-default-export': 'off',
+    'eslint-comments/require-description': 'off',
+    'no-console': 'warn',
+  },
 }
